@@ -1,0 +1,14 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "axios": "^1.10.0",
+        "unocss": "^66.3.3",
+        "vite": "^7.0.5"
+    }
+}
