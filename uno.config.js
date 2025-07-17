@@ -6,6 +6,12 @@ export default defineConfig({
     presetAttributify(),
     presetIcons(),
   ],
+  include: [
+    './index.html',
+    './pages/**/*.html',
+    './src/**/*,js',
+    './app/Views/**/*.php'
+  ],
   safelist: [
     'text-green-600',
     'bg-yellow-500',
